@@ -4,6 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// function App1() {
+//   const date = new Date();
+//   const hours = date.getHours();
+//   let timeOfDay
+//   if (hours < 12) {
+//     timeOfDay = "Morning"
+//   } else if (hours > 12 && hours < 17) {
+//     timeOfDay = "Afternoon"
+//   } else {
+//     timeOfDay = "Night"
+//   }
+
+//   return (
+//     <h1>Good {timeOfDay}</h1>
+//   )
+// }
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
